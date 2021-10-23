@@ -112,7 +112,7 @@ const NavBar = ({toggle}) => {
         </Left>
         <Right>
           <NavLinks>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/Coffee">Home</NavLink>
             <NavLink to="/Products">Menu</NavLink>
             <NavLink to="/Desserts">Desserts</NavLink>
           </NavLinks>

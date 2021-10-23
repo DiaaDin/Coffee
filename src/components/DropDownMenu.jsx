@@ -99,7 +99,7 @@ const DropDownMenu = ({toggle, isOpen}) => {
                 <CloseIcon/>
             </Icon>
           <NavLinks>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/Coffee">Home</NavLink>
             <NavLink to="/Products">Menu</NavLink>
             <NavLink to="/Desserts">Desserts</NavLink>
           </NavLinks>

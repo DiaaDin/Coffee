@@ -1,5 +1,5 @@
 import { BrowserRouter as Router , Route , Switch} from "react-router-dom";
-import Intro from "./components/Intro";
+import Coffee from "./components/Coffee";
 import Products from "./components/Products";
 import { useState } from "react";
 import NavBar from "./components/NavBar";
@@ -20,7 +20,7 @@ function App() {
       <NavBar toggle={toggle}/>
       <DropDownMenu isOpen={isOpen} toggle={toggle} />
       <Switch>
-        <Route path='/' exact component={Intro}/>
+        <Route path='/Coffee' exact component={Coffee}/>
       </Switch>
       <Switch>
         <Route path='/Products' component={Products}/>
